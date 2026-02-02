@@ -12,7 +12,7 @@ export default function About() {
   const paragraphs = siteConfig.author.bio.split('\n\n');
 
   return (
-    <section id="about" className="py-12">
+    <section id="about" className="py-4">
       <FadeContent blur duration={600}>
         <SectionHeader>About</SectionHeader>
       </FadeContent>

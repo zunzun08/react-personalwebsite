@@ -25,7 +25,7 @@ const posts = [
 
 export default function Blog() {
   return (
-    <section id="blog" className="py-12">
+    <section id="blog" className="py-4">
       <FadeContent blur duration={600}>
         <SectionHeader>Blog</SectionHeader>
       </FadeContent>

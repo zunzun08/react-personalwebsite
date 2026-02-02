@@ -32,7 +32,7 @@ export default function Portfolio() {
               <Card
                 href={project.url || project.github}
                 external={!!project.github && !project.url}
-                className="h-full"
+                className="h-full bg-card-hover/50"
               >
                 <CardHeader>
                   <CardDate>{formatDate(project.date)}</CardDate>
